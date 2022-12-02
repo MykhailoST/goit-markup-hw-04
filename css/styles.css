@@ -255,6 +255,34 @@ header {
     letter-spacing: 0.03em;
 }
 
+.title-list::before {
+    display: block;
+    content: "";
+    height: 120px;
+    width: 270px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-antenna::before {
+    background-image: url(../images/antenna\ 1.svg);
+}
+
+.icon-clok::before {
+    background-image: url(../images/clock\ 1.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/diagram\ 1.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut\ 1.svg);
+}
+
+
 /*picture*/
 
 .section-work {
@@ -301,6 +329,19 @@ header {
 .team-card:nth-child(4n) {
     margin-right: 0;
 }
+
+/* .social-links {
+    content: "";
+    display: inline-block;
+    width: 206px;
+    height: 44px;
+    background-image: url(../images/instagram\ 2.svg), 
+    url(../images/twitter\ 1.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: avto;
+    background-color: gray;
+} */
 
 .section-team {
     background: #F5F4FA;

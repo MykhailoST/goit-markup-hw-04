@@ -462,7 +462,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    fill: #AFB1B8;    
 }
 
 .customers-link:hover,
@@ -470,11 +470,11 @@ header {
     border: 1px solid #2196F3;
 }
 
-.customers-link:hover .customers-icons {
-    fill: #2196F3;
+.customers-link:hover {
+    fill:  #2196F3;
 }
 
-.customers-link {
+.customers-lin {
     fill: currentColor;
 }
 
@@ -556,6 +556,13 @@ address .link {
 .link-tel:focus  {
     color: var(--span-color);
 }
+
+
+/* ПРИЄДНУЙТЕСЬ */
+
+
+
+
 
 
 /* portfolio */

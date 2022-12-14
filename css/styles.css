@@ -560,9 +560,63 @@ address .link {
 
 /* ПРИЄДНУЙТЕСЬ */
 
+.join {
+    width: 206px;
+    height: 80px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 0px;
+    padding-right: 0px;
 
+      
+}
 
+.join-soc {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
 
+.soc-list-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-items-join {
+    width: 44px;
+    height: 44px;
+
+}
+
+.soc-link-join {
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+
+}
+
+.soc-link-join:hover {
+    background-color: #2196F3;
+    fill: #fff;
+}
+
+.soc-link-join {
+    fill: currentColor;
+}
+
+.soc-items-join:not(:last-child) {
+    margin-right: 10px;
+}
 
 
 /* portfolio */

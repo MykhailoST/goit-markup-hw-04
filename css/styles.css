@@ -183,7 +183,7 @@ header {
 
 
 .hero { 
-    padding: 200px 0px 200px 0px;
+    padding: 200px 0px;
     text-align: center;
 
     background-color: #2F303A;
@@ -191,7 +191,7 @@ header {
 
 .overley {
     max-width: 1600px;
-    height: 480px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
 

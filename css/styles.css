@@ -165,12 +165,29 @@ header {
     color: var(--span-color);
 }
 
+.envelope {
+    margin-right: 10px;
+    fill: currentColor;   
+}
 
+.smartphone {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 
 /*main*/
 
 /*hero*/
+
+
+
+.hero { 
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+
+    background-color: #2F303A;
+}
 
 .overley {
     max-width: 1600px;
@@ -179,17 +196,10 @@ header {
     margin-right: auto;
 
     background-image: linear-gradient(to right,
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-                url(../images/Img-hero.jpg);
-   
-   }
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/Img-hero.jpg);
 
-.hero { 
-    padding: 200px 0;
-    text-align: center;
-
-    background-color: #2F303A;
 }
 
 .hero-title {
@@ -560,15 +570,13 @@ address .link {
 
 /* ПРИЄДНУЙТЕСЬ */
 
-.join {
-    width: 206px;
-    height: 80px;
+.div-footer {
     display: flex;
     align-items: baseline;
-    padding-left: 0px;
-    padding-right: 0px;
+}
 
-      
+.join {
+    margin-left: 70px;
 }
 
 .join-soc {
